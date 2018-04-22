@@ -53,8 +53,7 @@ module Klout
     @@api_key = ""
     headers({ 
       'User-Agent' => "klout-rest-#{VERSION}",
-      'Content-Type' => 'application/json; charset=utf-8',
-      'Accept-Encoding' => 'gzip, deflate'
+      'Content-Type' => 'application/json; charset=utf-8'
     })
     base_uri @@base_uri
 
